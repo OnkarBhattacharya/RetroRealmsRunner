@@ -8,8 +8,8 @@ import { BannerAd } from '@/components/banner-ad';
 
 export const metadata: Metadata = {
   title: 'Retro Realms Runner',
-  description: "Play classic arcade games like Kiddie Kichers and Kirby's Adventure Land on any device.",
-  keywords: ['retro', 'arcade', 'games', 'mobile', 'tablet', 'Kiddie Kichers', "Kirby's Adventure Land"],
+  description: "Play classic arcade games like Kiddie Kickers and Kirby's Adventure Land on any device.",
+  keywords: ['retro', 'arcade', 'games', 'mobile', 'tablet', 'Kiddie Kickers', "Kirby's Adventure Land"],
 };
 
 export default function RootLayout({

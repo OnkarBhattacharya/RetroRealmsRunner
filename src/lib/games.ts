@@ -7,10 +7,10 @@ export type Game = {
 
 export const games: Game[] = [
   {
-    slug: 'kiddie-kichers',
-    title: 'Kiddie Kichers',
+    slug: 'kiddie-Kickers',
+    title: 'Kiddie Kickers',
     description: 'A fun and exciting game for the little ones. Jump, run, and collect stars in a vibrant, playful world!',
-    coverImage: 'kiddie-kichers-cover',
+    coverImage: 'kiddie-Kickers-cover',
   },
   {
     slug: 'kirbys-adventure-land',

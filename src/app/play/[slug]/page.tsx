@@ -26,6 +26,9 @@ export default function PlayPage() {
     notFound();
   }
 
+  const isKiddieKickers = game.slug === 'kiddie-Kickers';
+  const isKirbyAdventure = game.slug === 'kirbys-adventure-land';
+
   return (
     <div className="w-full h-full flex flex-col">
       <div className="flex items-center justify-between mb-4">
@@ -47,14 +50,28 @@ export default function PlayPage() {
           </div>
         ) : (
           <>
-            <div className="text-center text-muted-foreground p-8">
-              <Dices className="h-16 w-16 mx-auto mb-4 opacity-50" />
-              <h2 className="text-xl font-semibold">Game Starts Here</h2>
-              <p className="mt-2 max-w-md mx-auto">
-                This is where the game canvas for &quot;{game.title}&quot; would be rendered.
-                Controller support for platforms like Amazon Luna would be handled by the game engine.
-              </p>
-            </div>
+            {isKiddieKickers ? (
+              <iframe
+                src="https://kiddiekicker.netlify.app/"
+                className="w-full h-full border-0"
+                allowFullScreen
+              ></iframe>
+            ) : isKirbyAdventure ? (
+              <iframe
+                src="https://kirbyadventureland.netlify.app/"
+                className="w-full h-full border-0"
+                allowFullScreen
+              ></iframe>
+            ) : (
+              <div className="text-center text-muted-foreground p-8">
+                <Dices className="h-16 w-16 mx-auto mb-4 opacity-50" />
+                <h2 className="text-xl font-semibold">Game Starts Here</h2>
+                <p className="mt-2 max-w-md mx-auto">
+                  This is where the game canvas for &quot;{game.title}&quot; would be rendered.
+                  Controller support for platforms like Amazon Luna would be handled by the game engine.
+                </p>
+              </div>
+            )}
             <GameControls />
           </>
         )}

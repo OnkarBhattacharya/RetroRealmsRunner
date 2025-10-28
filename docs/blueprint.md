@@ -1,8 +1,8 @@
-# **App Name**: Retro Realms Runner
+# **App Name**: Retro Realms For Kids
 
 ## Core Features:
 
-- Game Library: Display Kiddie Kichers and Kirby's Adventure Land as available game options.
+- Game Library: Display Kiddie Kickers and Kirby's Adventure Land as available game options.
 - Cross-Platform Play: Enable users to play games across Google Play Store and Apple App Store.
 - Cloud Sync: Automatically save and sync game progress across all platforms.
 - Intuitive Controls: Implement simple and responsive touch controls optimized for mobile and tablet devices.
