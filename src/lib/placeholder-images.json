@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "app-logo",
+      "description": "Retro Realms Runner app logo",
+      "imageUrl": "https://images.unsplash.com/photo-1498736297812-3a08021f206f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyZXRybyUyMGFyY2FkZXxlbnwwfHx8fDE3NjE1OTkwMjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "retro arcade"
+    },
+    {
+      "id": "kiddie-kichers-cover",
+      "description": "Game cover for Kiddie Kichers",
+      "imageUrl": "https://images.unsplash.com/photo-1621293051751-6514b7f9515d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZCUyMHBsYXlpbmd8ZW58MHx8fHwxNzYxNTQ5ODYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child playing"
+    },
+    {
+      "id": "kirby-adventure-land-cover",
+      "description": "Game cover for Kirby's Adventure Land",
+      "imageUrl": "https://images.unsplash.com/photo-1672188382262-657e50dc5769?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmYW50YXN5JTIwbGFuZHxlbnwwfHx8fDE3NjE2NTY5NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fantasy land"
+    },
+    {
+      "id": "user-avatar",
+      "description": "User avatar placeholder",
+      "imageUrl": "https://images.unsplash.com/photo-1693039537350-3bba6975add7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBmYWNlfGVufDB8fHx8MTc2MTYzMzc3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person face"
+    }
+  ]
 }
